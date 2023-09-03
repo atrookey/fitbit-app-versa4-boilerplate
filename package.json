@@ -1,0 +1,27 @@
+{
+  "name": "fitbit-app-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~6.2.0-pre.1",
+    "@fitbit/sdk-cli": "~1.8.0-pre.10"
+  },
+  "fitbit": {
+    "appUUID": "4025470d-bf18-497a-bb99-eeb136d9b22d",
+    "appType": "app",
+    "appDisplayName": "Fitbit App Boilerplate",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "hera"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
